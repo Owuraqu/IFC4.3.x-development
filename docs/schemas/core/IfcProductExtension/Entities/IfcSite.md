@@ -85,7 +85,7 @@ The foot print representation of IfcSite is given by either a single 2D curve (s
 
 The local placement for IfcSite is defined in its supertype IfcProduct. It is defined by the IfcLocalPlacement, which defines the local coordinate system that is referenced by all geometric representations.
 
-* The PlacementRelTo relationship of IfcLocalPlacement shall point to the IfcSpatialStructureElement of type "IfcSite", if relative placement is used (e.g. to position a site relative a a site complex, or a site section to a site).
+* The PlacementRelTo relationship of IfcLocalPlacement shall point to the IfcSpatialStructureElement of type "IfcSite", if relative placement is used (e.g. to position a site relative a site complex, or a site section to a site).
 * If the relative placement is not used, the absolute placement is defined within the world coordinate system. If there is only one site object, then this is the default situation.
 
 ### Property Sets for Objects
